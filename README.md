@@ -1,12 +1,10 @@
 
-
-```markdown
 # 🌤️ Surabaya Air Quality Dashboard
 
-Aplikasi web interaktif berbasis **Dash (Plotly)** untuk memantau kualitas udara di Surabaya.  
-Dashboard ini dilengkapi **sidebar filter interaktif** yang dapat dibuka/tutup dari sisi kiri (mirip Streamlit sidebar), dua grafik utama, dan tabel data dinamis.
+Aplikasi web interaktif berbasis Dash (Plotly) untuk memantau kualitas udara di Surabaya.  
+Dashboard ini dilengkapi sidebar filter interaktif yang dapat dibuka/tutup dari sisi kiri (mirip Streamlit sidebar), dua grafik utama, dan tabel data dinamis.
 
----
+
 
 ## 🚀 Fitur Utama
 
@@ -15,8 +13,8 @@ Dashboard ini dilengkapi **sidebar filter interaktif** yang dapat dibuka/tutup d
 - Berisi kontrol `DatePickerRange` untuk memfilter data berdasarkan waktu.
 
 ✅ **Visualisasi Interaktif**
-- **Grafik AQI (Air Quality Index)** terhadap waktu.
-- **Grafik suhu dan kelembapan** (2 variabel sekaligus).
+- Grafik AQI (Air Quality Index) terhadap waktu.
+- Grafik suhu dan kelembapan (2 variabel sekaligus).
 - Kedua grafik responsif dan dapat di-*hover* untuk melihat detail nilai.
 
 ✅ **Tabel Data Dinamis**
@@ -35,7 +33,6 @@ Dashboard ini dilengkapi **sidebar filter interaktif** yang dapat dibuka/tutup d
 
 ## 🧠 Arsitektur Sistem
 
-```
 
 📂 Project Directory
 │
@@ -45,9 +42,9 @@ Dashboard ini dilengkapi **sidebar filter interaktif** yang dapat dibuka/tutup d
 ├── requirements.txt      # Daftar dependensi Python
 └── README.md             # Dokumentasi proyek
 
-````
 
-**Alur sistem:**
+
+Alur sistem:
 1. `app_dash.py` membaca data CSV (kolom: `timestamp`, `aqius`, `temp`, `humidity`).
 2. Komponen Dash (`dcc.Graph`, `dash_table.DataTable`) menampilkan hasil dalam layout Bootstrap.
 3. Sidebar (`dbc.Offcanvas`) menyediakan kontrol filter waktu.
@@ -72,7 +69,6 @@ Dashboard ini dilengkapi **sidebar filter interaktif** yang dapat dibuka/tutup d
    ```bash
    git clone https://github.com/yourusername/aqi-dashboard
    cd aqi-dashboard
-````
 
 2. **Buat virtual environment (opsional tapi disarankan)**
 
