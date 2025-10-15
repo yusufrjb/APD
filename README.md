@@ -33,7 +33,7 @@ Dashboard ini dilengkapi sidebar filter interaktif yang dapat dibuka/tutup dari 
 
 ## 🧠 Arsitektur Sistem
 
-
+```
 📂 Project Directory
 │
 ├── app_dash.py           # Aplikasi utama Dash + Bootstrap
@@ -41,7 +41,7 @@ Dashboard ini dilengkapi sidebar filter interaktif yang dapat dibuka/tutup dari 
 │   └── aqi_surabaya.csv  # Dataset kualitas udara (AQI, suhu, kelembapan)
 ├── requirements.txt      # Daftar dependensi Python
 └── README.md             # Dokumentasi proyek
-
+```
 
 
 Alur sistem:
