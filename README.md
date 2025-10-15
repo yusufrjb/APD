@@ -142,8 +142,6 @@ Proyek ini dilisensikan di bawah lisensi **MIT** — bebas digunakan untuk keper
 
 👨‍💻 **Dibuat oleh:**
 *Yusuf Rajabi*
-Semester 5 — NeuroComputing Project 2025
-Universitas … *(isi sesuai institusi)*
 
-```
+
 
