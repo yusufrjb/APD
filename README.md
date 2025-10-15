@@ -124,16 +124,6 @@ Alur sistem:
 
 ---
 
-## 🧠 Ide Pengembangan Selanjutnya
-
-✨ Menambahkan dropdown untuk memilih stasiun udara.
-✨ Menggunakan `dcc.Interval` untuk update data real-time dari API BMKG atau Supabase.
-✨ Menambahkan notifikasi `dbc.Toast` untuk status data (“Data berhasil dimuat”).
-✨ Membuat mode gelap (dark mode) dengan tema `dbc.themes.CYBORG`.
-✨ Membuat versi multi-page (tab “Overview”, “Analytics”, “Data”).
-
----
-
 ## 📜 Lisensi
 
 Proyek ini dilisensikan di bawah lisensi **MIT** — bebas digunakan untuk keperluan akademik maupun pengembangan pribadi.
