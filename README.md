@@ -1,8 +1,4 @@
-Siap 🔥 berikut **README.md** lengkap dan profesional untuk versi terbaru dashboard kamu — yaitu versi **Dash + Bootstrap dengan sidebar interaktif (⚙️ Filter)** seperti Streamlit:
 
----
-
-## 🧾 README.md — Surabaya Air Quality Dashboard
 
 ```markdown
 # 🌤️ Surabaya Air Quality Dashboard
@@ -155,8 +151,3 @@ Universitas … *(isi sesuai institusi)*
 
 ```
 
----
-
-Mau saya tambahkan screenshot ilustrasi layout-nya (mockup tampilan dashboard) ke dalam README ini juga?  
-Bisa saya buatkan pakai contoh visual gaya Streamlit/Dash biar README-nya tampil lebih keren di GitHub.
-```
